@@ -54,7 +54,7 @@ return (
         <button  
             className = "search-button"
             type="submit">
-            Search
+            Search food for it's recipes
         </button>
      </form>
 
