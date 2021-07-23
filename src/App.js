@@ -48,18 +48,20 @@ return (
             className ="search-bar" 
             type="text"
             value= {search}
+            placeholder = "Search food for it's recipes"
             onChange = {updateSearch} 
             />
 
         <button  
             className = "search-button"
             type="submit">
-            Search food for it's recipes
+            Search
         </button>
      </form>
 
  <div className ="recipes">
-     {recipes.map(recipe => ( 
+     {
+     recipes.map(recipe => ( 
         <Recipe 
             key = {recipe.recipe.label}  
             title={recipe.recipe.label} 
