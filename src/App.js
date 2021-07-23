@@ -46,10 +46,10 @@ return (
      <form onSubmit= {getSearch} className="search-form">      
         <input 
             className ="search-bar" 
-            type="text"
-            value= {search}
+            type ="text"
+            value = {search}
             placeholder = "Search food for it's recipes"
-            onChange = {updateSearch} 
+            onChange = {updateSearch} s
             />
 
         <button  
