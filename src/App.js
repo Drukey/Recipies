@@ -41,14 +41,14 @@ const getRecipes =  async () => {
 
 return (
     <div className="App">
-    <h1>Chef Dru's Recipes</h1>
+    <h1>Recipes Site..</h1>
  
      <form onSubmit= {getSearch} className="search-form">      
         <input 
             className ="search-bar" 
             type ="text"
             value = {search}
-            placeholder = "Search food for it's recipes"
+            placeholder = "Search food name for it's recipes"
             onChange = {updateSearch} s
             />
 
